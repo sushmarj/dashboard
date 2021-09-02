@@ -1,0 +1,111 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/font-awesome/css/font-awesome.min.css'; 
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+  }
+  .right {
+    text-align: right;
+  }
+  .card {
+    box-shadow: 4px 8px 16px 0 rgb(206, 203, 203);
+    transition: 0.1s;
+    width: 20%;
+    margin :5px;
+    border-radius: 1em;
+  }
+  .bottombar{
+    height: 50px;
+    background-color: rgb(219, 219, 223);
+    width: 100%;
+  }
+  .draft{
+    box-shadow: 4px 8px 16px 0 rgb(206, 203, 203);
+    padding: 10px;
+    transition: 0.1s;
+    width: 31%;
+    margin :20px;
+    border-radius: 6pt;
+
+  }
+  .graph{
+    box-shadow: 4px 8px 16px 0 rgb(206, 203, 203);
+    padding: 10px;
+    transition: 0.1s;
+    width: 63%;
+    margin :15px;
+    border-radius: 6pt;
+
+  }
+  .box {
+    box-shadow: 4px 8px 16px 0 rgb(206, 203, 203);
+    transition: 0.1s;
+    width: 25%;
+    border-radius: 1em;
+  }
+  .box2 {
+    box-shadow: 4px 8px 16px 0 rgb(206, 203, 203);
+    transition: 0.1s;
+    width: 50%;
+    margin :5px;
+    border-radius: 1em;
+  }
+  .aligned {
+    display: flex;
+    align-items: center;
+    
+}
+.piechart {
+  display: block;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-image: conic-gradient(
+      rgb(34, 118, 243) 235deg, 
+      rgb(95, 151, 235)0 330deg, 
+      rgb(134, 180, 250) 0);
+}
+span ,.piechart {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#rectangle{
+  margin-left: 15px;
+  width:20px;
+  height:12px;
+  
+}
+.msg_container{
+  border-radius: 25px;
+  height :25px;
+  width: 120px;
+  background-color: rgb(15, 15, 15);
+  transform: translate(100.7px, 71.2px);
+  color: white;
+  padding: 10px;
+}
+.msg_container2{
+  border-radius: 25px;
+  height :25px;
+  width: 120px;
+  background-color: rgb(15, 15, 15);
+  transform: translate(4.7px, 71.2px);
+  color: white;
+  padding: 10px;
+}
+.profile{
+  border-radius: 25px;
+  height :35px;
+  width: 35px;
+  background-color: rgb(255, 254, 254);
+  transform: translate(9.7px, 200.2px);
+}
+.profile2{
+  border-radius: 25px;
+  height :35px;
+  width: 35px;
+  background-color: rgb(255, 254, 254);
+  transform: translate(9.7px, 310.2px);
+}

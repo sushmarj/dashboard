@@ -1,0 +1,5 @@
+{
+    "mongoConnectString":"mongodb://localhost:27017/DashDB",
+    "port":5000,
+    "jwtPrivateKey":"Sushma@123"
+}
